@@ -1,0 +1,19 @@
+{
+    "name": "alextyrey/readability-php",
+    "license": "MIT",
+
+    "description": "A PHP implementation of Arc90's Readability.",
+    "keywords": [
+        "readability", "content", "article", "extraction", "arc90"
+    ],
+
+    "require": {
+        "php": ">=5.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "alextyrey\\": "src/"
+        }
+    }
+}
